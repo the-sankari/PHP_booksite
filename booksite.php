@@ -52,7 +52,7 @@
                     $author = $book['author'];
                     $year = $book['year'];
                     $description = $book['description'];
-                    // get the favorite behaivor
+                    
                     $isFavorite = isset($_COOKIE['favorites']) && in_array($id, explode(',', $_COOKIE['favorites'])); 
 
                     echo "<section class='book'>";
